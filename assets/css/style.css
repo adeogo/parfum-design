@@ -1,0 +1,114 @@
+body { font-family: 'Catamaran'; background-color: #fdfafa; }
+
+.navbar {
+    background-color: #fdfafa;
+}
+
+.navbar-brand {
+    color: #6B524D;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    /* line-height: 120%; */
+}
+
+#banner-section {
+    /* height: 100vh;  */
+    background-repeat: no-repeat;
+    background-image: url('../img/background1.png'); 
+    padding: 150px;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-content>h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #FFF;
+}
+
+.banner-content>p{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.banner-content>a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 20px; */
+    color: #FFF;
+    text-decoration: none;
+    border: 1px solid #FFF;
+    padding: 10px 40px;
+}
+
+#intro {
+    margin: 50px;
+    padding: 0 250px;
+}
+
+#intro>h3{
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #6B524D;
+}
+
+#intro>p {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#discover-section, #showcase-section {
+    margin-top: 80px; 
+    margin-bottom: 80px;
+}
+
+#discover-section h2, #showcase-section h2{
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;                
+    color: #6B524D;
+}
+
+#discover-section p, #showcase-section p{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #9A9A9A;
+}
+
+#discover-section a{
+    background: #6B524D;
+    border: 1px solid #6B524D;
+    padding: 18px 27px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#showcase-section #price{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 40;
+    font-size: 36px;
+    color: #9A9A9A;
+}
