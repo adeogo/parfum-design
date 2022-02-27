@@ -132,3 +132,49 @@ body { font-family: 'Catamaran'; background-color: #fdfafa; }
     background: #6B524D;
     padding: 5px;
 }
+
+/* TESTIMONIALS */
+#testimonial-body {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.testimonial-item {
+    padding: 55px 35px; text-align: center;
+    width: 300px;
+    height: 250px;
+    margin-right: 50px;
+    background: #FFFFFF;
+    border: 1px solid #E9F1F0;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 8px rgba(0, 17, 17, 0.16);
+    border-radius: 10px;
+}
+/* TESTIMONIALS */
+
+/* FOOTER */
+#footer-container {
+    background-color: #5E423D; 
+    padding: 50px 100px; 
+    color: #FFF;
+}
+
+.footer-links {
+    line-height: 15px;
+}
+
+.footer-links a{
+    color: #FFF !important; 
+    text-decoration: none;
+}
+
+.footer-item {
+    width: 250px;
+}
+
+.footer-header {
+    margin-bottom: 20px;
+}
+
+
+/* FOOTER */
