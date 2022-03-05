@@ -15,7 +15,6 @@ body { font-family: 'Catamaran'; background-color: #fdfafa; }
 #banner-section {
     /* height: 100vh;  */
     background-repeat: no-repeat;
-    background-image: url('../img/background1.png'); 
     padding: 150px;
 }
 
@@ -142,7 +141,7 @@ body { font-family: 'Catamaran'; background-color: #fdfafa; }
 .testimonial-item {
     padding: 55px 35px; text-align: center;
     width: 300px;
-    height: 250px;
+    height: 300px;
     margin-right: 50px;
     background: #FFFFFF;
     border: 1px solid #E9F1F0;
@@ -150,6 +149,19 @@ body { font-family: 'Catamaran'; background-color: #fdfafa; }
     box-shadow: 4px 4px 8px rgba(0, 17, 17, 0.16);
     border-radius: 10px;
 }
+
+.testimonial-item h4 {
+    color: #6B524D; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    size: 24px;
+}
+
+.testimonial-item img {
+    width: 96px;
+    height: 96px;
+}
+
 /* TESTIMONIALS */
 
 /* FOOTER */
