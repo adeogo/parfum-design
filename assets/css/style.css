@@ -57,19 +57,28 @@ body { font-family: 'Catamaran'; background-color: #fdfafa; }
     padding: 0 250px;
 }
 
-#intro>h3{
+#intro h3{
     font-family: Catamaran;
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 35px;
     color: #6B524D;
+    margin-bottom: 20px;
 }
 
-#intro>p {
+#intro p {
     font-family: Work Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
+}
+
+.buy-now {
+  text-decoration: none; 
+  color: #6B524D; 
+  background: #FFFFFF; 
+  border: 1px solid #6B524D;
+  padding: 10px 20px;
 }
 
 #discover-section, #showcase-section {
@@ -134,7 +143,7 @@ body { font-family: 'Catamaran'; background-color: #fdfafa; }
 
 /* TESTIMONIALS */
 #testimonial-body {
-    margin-left: 50px;
+    /*margin-left: 50px;*/
     margin-top: 50px;
 }
 
@@ -143,6 +152,7 @@ body { font-family: 'Catamaran'; background-color: #fdfafa; }
     width: 300px;
     height: 300px;
     margin-right: 50px;
+    margin-bottom: 70px;
     background: #FFFFFF;
     border: 1px solid #E9F1F0;
     box-sizing: border-box;
@@ -163,6 +173,91 @@ body { font-family: 'Catamaran'; background-color: #fdfafa; }
 }
 
 /* TESTIMONIALS */
+
+/* CAROUUSEL */
+.carousel-wrap {
+    /*width: 1000px;*/
+    margin: auto;
+    position: relative;
+  }
+  .owl-carousel .owl-nav{
+    overflow: hidden;
+    height: 0px;
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span, 
+  .owl-theme .owl-dots .owl-dot:hover span {
+      background: #2caae1;
+  }
+
+  .banner2 {
+    padding: 60px 50px !important;
+  }
+
+  .owl-carousel .item {
+      text-align: center;
+  }
+  .owl-carousel .nav-btn{
+      height: 47px;
+      position: absolute;
+      width: 26px;
+      cursor: pointer;
+      top: 100px !important;
+  }
+
+  .owl-carousel .owl-prev.disabled,
+  .owl-carousel .owl-next.disabled{
+    pointer-events: none;
+    opacity: 0.2;
+  }
+
+  .owl-carousel .prev-slide{
+      background: url(nav-icon.png) no-repeat scroll 0 0;
+      left: -33px;
+  }
+  .owl-carousel .next-slide{
+      background: url(nav-icon.png) no-repeat scroll -24px 0px;
+      right: -33px;
+  }
+  .owl-carousel .prev-slide:hover{
+     background-position: 0px -53px;
+  }
+  .owl-carousel .next-slide:hover{
+    background-position: -24px -53px;
+  }
+
+                     
+.ribbon {
+  margin: 0;
+  padding: 0;
+  background: #6B524D;
+  color:white;
+  padding: 0.4em 0;
+  position: absolute;
+  top:0;
+  right:0;
+  transform: translateX(30%) translateY(0%) rotate(45deg);
+  transform-origin: top left;
+}
+.ribbon:before,
+.ribbon:after {
+  content: '';
+  position: absolute;
+  top:0;
+  margin: 0 -1px; /* tweak */
+  width: 100%;
+  height: 100%;
+  background: #6B524D;
+}
+.ribbon:before {
+  right:100%;
+}
+
+.ribbon:after {
+  left:100%;
+}
+  
+/* CAROUUSEL */
 
 /* FOOTER */
 #footer-container {
@@ -190,3 +285,109 @@ body { font-family: 'Catamaran'; background-color: #fdfafa; }
 
 
 /* FOOTER */
+
+@media (max-width: 992px){
+  
+  #banner-section {
+      padding: 50px;
+  }
+
+  .banner-content h3{
+      font-size: 30px;
+  }
+
+  .banner-content>p{
+      font-size: 15px;
+      margin-bottom: 50px;
+  }
+
+  #intro {
+      margin: 10px;
+      padding: 0 10px;
+  }
+
+  #intro h3{
+      font-weight: 500;
+      font-size: 20px;
+  }
+
+  #intro p {
+      font-size: 15px;
+      text-align: justify !important;
+  }
+
+  #discover-section, #showcase-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #discover-section h2, #showcase-section h2 {
+    font-size: 30px;
+  }
+
+  #discover-section p, #showcase-section p {
+    font-size: 15px;
+    text-align: justify !important;
+  }
+  
+  #discover-section a {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  #discover-section img {
+    margin-top: 20px;
+  }
+
+  #showcase-section .add-to-cart {
+    padding: 9px;
+  }
+
+  .banner2 {
+    padding: 20px !important;
+  }
+
+  #testimonial-body {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  #footer-container {
+    padding: 30px;
+  }
+
+}
+
+
+@media (max-width: 768px){
+  
+  #banner-section {
+      padding: 20px;
+  }
+
+  .banner-content h3{
+      font-size: 25px;
+  }
+
+  .banner-content p{
+      font-size: 15px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+  }
+
+  #intro {
+      margin: 10px;
+      padding: 0px;
+  }
+
+  #intro h3{
+      font-weight: 500;
+      font-size: 20px;
+  }
+
+  #intro p {
+      font-size: 15px;
+      text-align: justify !important;
+  }
+
+}
